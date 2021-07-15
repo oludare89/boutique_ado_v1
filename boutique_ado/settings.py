@@ -73,7 +73,7 @@ TEMPLATES = [
                 'django.template.context_processors.request', # require by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'bags.contexts.bag_contents',
+                'bag.contexts.bag_contents',
             ],
         },
     },
